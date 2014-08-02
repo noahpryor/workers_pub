@@ -6,7 +6,6 @@ require 'capybara/dsl'
 require 'nokogiri'
 require 'pry'
 require 'active_support/all'
-puts Phantomjs.path
 
 phantom_options = {
   js_errors: false,
